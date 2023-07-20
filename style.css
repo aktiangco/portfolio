@@ -21,7 +21,8 @@ body {
     margin: 10px;
     border-radius: 25px;
     border: 1px solid white;
-    width: 500px;
+    width: 600px;
+    background: linear-gradient(to right, rgb(4, 33, 161), rgb(60, 122, 236), purple); 
     
 }
 .about-content{
@@ -51,10 +52,11 @@ img {
     justify-content: center;
     border-radius: 25px;
     border: 1px solid white;
-    width: 500px;
+    width: 600px;
     height: 100px;
     padding: 5px;
     margin: 5px;
+    background: linear-gradient(to right, rgb(4, 33, 161), rgb(60, 122, 236), purple); 
 }
 .skill{
     padding: 5px;
@@ -70,12 +72,12 @@ img {
     justify-content:space-around;
     border-radius: 15em;
     border: 1px solid white;
-    width: 500px;
+    width: 600px;
     height: 80x;
     align-items: center;
     padding: 10px;
     margin: 10px;
-    
+    background: linear-gradient(to right, rgb(4, 33, 161), rgb(60, 122, 236), purple);  
 }
 
 .icon, .arrow{
@@ -85,7 +87,7 @@ img {
 }
 
 a{
-    color: gray;
+    color: white;
     -webkit-transition: color .5s linear;
     -moz-transition: color .5s linear;
     -ms-transition: color .5s linear;
@@ -93,12 +95,12 @@ a{
     transition: color .5s linear;  
 }
 a:hover {
-    color: white;
+    color: rgb(4, 39, 103);
 }
 
 .social{
     border: 1px solid white;
-    width: 515px;
+    width: 610px;
     height: 50px;
     display: flex;
     justify-content: space-around;
