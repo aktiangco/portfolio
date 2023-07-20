@@ -21,8 +21,8 @@ body {
     margin: 10px;
     border-radius: 25px;
     border: 1px solid white;
-    width: 600px;
-    background: linear-gradient(to right, rgb(4, 33, 161), rgb(60, 122, 236), purple); 
+    width: 500px;
+    background: linear-gradient(to right, rgb(4, 33, 161), rgb(60, 122, 236)); 
     
 }
 .about-content{
@@ -52,11 +52,11 @@ img {
     justify-content: center;
     border-radius: 25px;
     border: 1px solid white;
-    width: 600px;
+   width: 500px;
     height: 100px;
     padding: 5px;
     margin: 5px;
-    background: linear-gradient(to right, rgb(4, 33, 161), rgb(60, 122, 236), purple); 
+    background: linear-gradient(to right, rgb(4, 33, 161), rgb(60, 122, 236)); 
 }
 .skill{
     padding: 5px;
@@ -64,20 +64,26 @@ img {
 }
 .icon{
     position: relative;
-    top:-10px ;
+    top:-10px;
+
 }
+/* .icon-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} */
 .links {
     display: flex;
     flex-direction: row;
     justify-content:space-around;
     border-radius: 15em;
     border: 1px solid white;
-    width: 600px;
+    width: 500px;
     height: 80x;
     align-items: center;
     padding: 10px;
     margin: 10px;
-    background: linear-gradient(to right, rgb(4, 33, 161), rgb(60, 122, 236), purple);  
+    background: linear-gradient(to right, rgb(4, 33, 161), rgb(60, 122, 236));  
 }
 
 .icon, .arrow{
@@ -100,8 +106,10 @@ a:hover {
 
 .social{
     border: 1px solid white;
-    width: 610px;
+    width: 515px;
     height: 50px;
+    padding: 5px;
+    margin: 5px;
     display: flex;
     justify-content: space-around;
     border-radius: 30px;
