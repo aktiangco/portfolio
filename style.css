@@ -2,46 +2,57 @@ body {
     margin: 0;
     font-family: sans-serif;
     text-align: center;
-    background-color: gray;
+    background-image: url("./assets/blue-background.jpeg");
     color: white;
   }                  
   .container {
     display: flex;
-    min-height: 100vh;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
 }  
 main {
-    min-height: 80vh; 
-    flex-grow: 5;
+    height: auto; 
   }
   
-  nav {
-    background-color: cornflowerblue;
-    flex-grow: 2;
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+    border: 1px solid white;
   }
 img {
-    width: 25%;
-    border-radius: 15em;
+    width: 40%;
+    border-radius: 25px;
+    border: 1px solid white;
 }
-  footer, header {
-    background-color: cornflowerblue;
-    flex-grow: 1;
-    padding: 0;
-    margin: 0;
-    height: 10vh;
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    border-radius: 15em;
+    border: 1px solid white;
+    width: 500px;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    
+}
+.icon, .arrow{
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+}
+.content{
+    max-width: 60vw;
+    justify-content: center;
+    align-items: flex-start;
 
-  }
-
-  @media (min-width: 600px) {
-    .container {
-      flex-direction: row;
-      flex-wrap: wrap;
-    }
-    main {
-        max-width: 60%;
-    }
-    header, footer {
-        width: 100%;
-    }
-  }        
+}
+a{
+    color: white;
+    
+}
