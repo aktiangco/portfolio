@@ -35,7 +35,7 @@ img {
 .img{
     justify-content: center;
 }
-.skills {
+.skills, .social {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,6 +50,10 @@ img {
     padding: 5px;
     margin: 5px; 
 }
+.icon{
+    position: relative;
+    top:-10px ;
+}
 .links {
     display: flex;
     flex-direction: row;
@@ -57,7 +61,7 @@ img {
     border-radius: 15em;
     border: 1px solid white;
     width: 500px;
-    height: 100px;
+    height: 80x;
     align-items: center;
     padding: 10px;
     margin: 10px;
@@ -71,7 +75,7 @@ img {
 }
 
 a{
-    color: cornflowerblue;
+    color: gray;
     -webkit-transition: color .5s linear;
     -moz-transition: color .5s linear;
     -ms-transition: color .5s linear;
@@ -80,4 +84,13 @@ a{
 }
 a:hover {
     color: white;
+}
+
+.social{
+    border: 1px solid white;
+    width: 515px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 30px;
 }
