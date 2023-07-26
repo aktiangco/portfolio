@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: "Century Gothic", "CenturyGothic", "AppleGothic";
+    text-align: center;
+    background-image: url("./assets/blue-background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    height: auto;
+    width: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}  
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+    border: 1px solid white;
+    width: 500px;
+    background: linear-gradient(to right, rgb(4, 33, 161), rgb(60, 122, 236)); 
+    
+}
+.about-content{
+    width:auto ;
+    height: 30vh;
+    overflow: auto;
+    padding: 5px;
+    margin: 5px;
+
+
+}
+.about, .content{
+    text-align: left;
+}
+
+img {
+    width: 200px;
+    border-radius: 25px;
+    border: 1px solid white;
+}
+.img{
+    justify-content: center;
+}
+.skills, .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    border: 1px solid white;
+   width: 500px;
+    height: 100px;
+    padding: 5px;
+    margin: 5px;
+    background: linear-gradient(to right, rgb(4, 33, 161), rgb(60, 122, 236)); 
+}
+.skill{
+    padding: 5px;
+    margin: 5px; 
+}
+.icon{
+    position: relative;
+    top:-10px;
+
+}
+/* .icon-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} */
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    border-radius: 15em;
+    border: 1px solid white;
+    width: 500px;
+    height: 80x;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    background: linear-gradient(to right, rgb(4, 33, 161), rgb(60, 122, 236));  
+}
+
+.icon, .arrow{
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+}
+
+a{
+    color: white;
+    -webkit-transition: color .5s linear;
+    -moz-transition: color .5s linear;
+    -ms-transition: color .5s linear;
+    -o-transition: color .5s linear;
+    transition: color .5s linear;  
+}
+a:hover {
+    color: rgb(4, 39, 103);
+}
+
+.social{
+    border: 1px solid white;
+    width: 515px;
+    height: 50px;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 30px;
+}
