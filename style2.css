@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: "Century Gothic", "CenturyGothic", "AppleGothic";
+    text-align: center;
+    background-image: url("./assets/blue-background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    height: auto;
+    width: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}  
+nav{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    background-color: black;
+
+}
+
+
+a{
+    color: white;
+    -webkit-transition: color .5s linear;
+    -moz-transition: color .5s linear;
+    -ms-transition: color .5s linear;
+    -o-transition: color .5s linear;
+    transition: color .5s linear;  
+}
+a:hover {
+    color: rgb(4, 39, 103);
+}
+/* cover page */
+.cover{
+    height: 100vh;
+    padding: 30px;
+    background-image: url('./assets/waterfall.jpeg');
+    
+}
+
+.icon{
+    display: flex;
+    }
+    .links {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        border-radius: 15em;
+        border: 1px solid white;
+        width: 500px;
+        height: 80x;
+        align-items: center;
+        padding: 10px;
+        margin: 10px;
+        background: linear-gradient(to right, rgb(4, 33, 161), rgb(60, 122, 236));  
+    }
+    
+/* about me page */
+.aboutme {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+    border: 1px solid white;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, rgb(4, 33, 161), rgb(60, 122, 236)); 
+    
+}
+
+
+img {
+    width: 200px;
+    border-radius: 25px;
+    border: 1px solid white;
+}
+.img{
+    justify-content: center;
+}
+
+/* project page */
+.project{
+    height: 100vh;
+    padding: 30px; 
+}
+
+/* skills page */
+.skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    border: 1px solid white;
+   width: 100%;
+    height: auto;
+    padding: 5px;
+    margin: 5px;
+    background: linear-gradient(to right, rgb(4, 33, 161), rgb(60, 122, 236)); 
+}
+.skill{
+    padding: 5px;
+    margin: 5px; 
+}
+
+
